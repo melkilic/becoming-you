@@ -1,12 +1,15 @@
 /** @format */
-
+:root {
+  --main-font-color: #4cd7d0;
+}
 .footer-container {
-  background-color: #242424;
+  background-color: #222;
   padding: 4rem 0 2rem 0;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  border-top: 1px solid white;
 }
 
 .footer-subscription {
@@ -18,7 +21,7 @@
 
   margin-bottom: 24px;
   padding: 24px;
-  color: #fff;
+  color: var(--main-font-color);
 }
 
 .footer-subscription > p {
@@ -44,7 +47,7 @@
   border: none;
   font-size: 18px;
   margin-bottom: 16px;
-  border: 1px solid #fff;
+  border: 1px solid var(--main-font-color);
 }
 
 .footer-links {
@@ -73,11 +76,11 @@
 }
 
 .footer-link-items > h2 {
-  color: #fff;
+  color: var(--main-font-color);
 }
 
 .footer-link-items a {
-  color: #fff;
+  color: var(--main-font-color);
   text-decoration: none;
   margin-bottom: 0.5rem;
 }
@@ -97,7 +100,7 @@
 
 /* Social Icons */
 .social-icon-link {
-  color: #fff;
+  color: var(--main-font-color);
   font-size: 24px;
 }
 
@@ -123,7 +126,7 @@
 }
 
 .social-logo {
-  color: #fff;
+  color: var(--main-font-color);
   justify-self: start;
   margin-left: 20px;
   cursor: pointer;
@@ -135,7 +138,7 @@
 }
 
 .website-rights {
-  color: #fff;
+  color: var(--main-font-color);
   margin-bottom: 16px;
   font-size: 18px;
 }

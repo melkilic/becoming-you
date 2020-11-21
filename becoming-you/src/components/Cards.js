@@ -10,30 +10,16 @@ function Cards() {
       <h1>Some Meaningful Blurb...</h1>
       <div className="cards__container">
         <div className="cards__wrapper">
-          {/* <ul className="cards__items">
-            <CardItem
-              src="images/img-9.jpg"
-              text="Explore the hidden waterfall deep inside the Amazon Jungle"
-              label="Adventure"
-              path="/services"
-            />
-            <CardItem
-              src="images/img-2.jpg"
-              text="Travel through the Islands of Bali in a Private Cruise"
-              label="Luxury"
-              path="/services"
-            />
-          </ul> */}
           <ul className="cards__items">
             <CardItem
               src="images/body.jpg"
-              text="WHAT WE OFFER"
+              text="WHAT "
               label="Nutrition"
               path="/body"
             />
             <CardItem
               src="images/soul.jpg"
-              text="Experience Football on Top of the Himilayan Mountains"
+              text="WE "
               label="Wellness"
               path="/soul"
             />
@@ -44,6 +30,7 @@ function Cards() {
               path="/mind"
             />
           </ul>
+          <h2>WHAT WE OFFER</h2>
         </div>
       </div>
     </div>

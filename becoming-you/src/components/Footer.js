@@ -64,7 +64,7 @@ function Footer() {
               <span class="fa fa-heart"></span> by
               <a
                 href="https://www.linkedin.com/in/melike-kilic/"
-                style={{ color: "white" }}
+                style={{ color: "#4cd7d0" }}
               >
                 Melike Kilic
               </a>
