@@ -5,7 +5,7 @@
 body {
   padding: 0;
   margin: 0;
-  background-color: #17141d;
+  background-color: #abcccb;
   color: white;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
@@ -17,7 +17,7 @@ a {
 
 .card-list {
   display: flex;
-  padding: 3rem;
+  padding: 5rem;
   overflow-x: scroll;
 }
 
@@ -87,7 +87,7 @@ a {
 }
 
 .card-header h2:hover {
-  background: linear-gradient(90deg, #ff8a00, #e52e71);
+  background: linear-gradient(90deg, #4cd7d0, #e52e71);
   text-shadow: none;
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
@@ -168,7 +168,7 @@ a {
   text-shadow: none;
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
-  -webkit-box-decoration-break: clone;
+  /* -webkit-box-decoration-break: clone; */
   background-clip: text;
   border-color: white;
 }
@@ -176,4 +176,7 @@ a {
 h1 {
   text-align: center;
   margin: 0;
+  color: #17141d;
+  font-size: 90px;
+  /* margin-top: 160px; */
 }

@@ -58,17 +58,15 @@ function Footer() {
             </Link>
           </div>
           <small class="website-rights">
-            Becoming You &copy; 2020
-            <div>
-              This website is made with
-              <span class="fa fa-heart"></span> by
-              <a
-                href="https://www.linkedin.com/in/melike-kilic/"
-                style={{ color: "#4cd7d0" }}
-              >
-                Melike Kilic
-              </a>
-            </div>
+            This website is made with
+            <span class="fa fa-heart"></span> <br />
+            by
+            <a
+              href="https://www.linkedin.com/in/melike-kilic/"
+              style={{ color: "#abcccb" }}
+            >
+              Melike Kilic
+            </a>
           </small>
           <div class="social-icons">
             <Link

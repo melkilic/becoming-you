@@ -1,15 +1,15 @@
 /** @format */
 :root {
-  --main-font-color: #4cd7d0;
+  --main-font-color: #aabbcc;
 }
 .footer-container {
-  background-color: #222;
+  background-color: #17141d;
   padding: 4rem 0 2rem 0;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  border-top: 1px solid white;
+  /* border-top: 1px solid white; */
 }
 
 .footer-subscription {
