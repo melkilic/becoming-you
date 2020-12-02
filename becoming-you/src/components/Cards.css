@@ -1,12 +1,12 @@
 /** @format */
-
 .cards {
   padding: 4rem;
-  background: #fff;
+  background: #17141d;
 }
 
 h1 {
   text-align: center;
+  color: #fff;
 }
 
 .cards__container {
@@ -32,6 +32,7 @@ h1 {
   flex: 1;
   margin: 0 1rem;
   border-radius: 10px;
+  background-color: #fff;
 }
 
 .cards__item__link {
@@ -67,7 +68,7 @@ h1 {
   max-width: calc((100%) - 60px);
   font-size: 12px;
   font-weight: 700;
-  color: #fff;
+  color: #4cd7d0;
   background-color: #000;
   box-sizing: border-box;
 }
@@ -96,11 +97,18 @@ h1 {
 }
 
 .cards__item__text {
-  color: #252e48;
-  font-size: 28px;
+  color: #000;
+  font-size: 18px;
   line-height: 24px;
 }
 
+.cards__wrapper h2 {
+  text-align: center;
+  color: #4cd7d0;
+  font-size: 40px;
+  margin-bottom: 0;
+  word-spacing: 3cm;
+}
 @media only screen and (min-width: 1200px) {
   .content__blog__container {
     width: 84%;
